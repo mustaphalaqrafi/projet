@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Discover exceptional smartphones and considered technology at TECHNOVA. Premium tech, thoughtfully selected.">
+  <title>TECHNOVA — Technology, elevated.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement-bar">
+    <span>Complimentary delivery on orders over 2,000 MAD</span>
+    <a href="#products">Discover this season’s offers <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell">
+      <a class="brand-mark" href="#top" aria-label="TECHNOVA home"><span class="brand-symbol">T</span><span>TECH<span class="brand-light">NOVA</span></span></a>
+      <button class="menu-toggle icon-button" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#top" class="nav-link active">Home</a>
+        <a href="#products" class="nav-link">Smartphones</a>
+        <a href="#categories" class="nav-link">Accessories</a>
+        <a href="#brands" class="nav-link">Brands</a>
+        <a href="#products" class="nav-link">Offers <span class="nav-dot"></span></a>
+      </nav>
+      <div class="nav-actions">
+        <form class="nav-search" id="nav-search-form" role="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" id="nav-search" placeholder="Search products..." aria-label="Search products">
+          <kbd>⌘ K</kbd>
+        </form>
+        <button class="icon-button wishlist-shortcut" id="wishlist-shortcut" type="button" aria-label="Show wishlist"><i class="fa-regular fa-heart"></i><span class="tiny-count" id="wishlist-count">0</span></button>
+        <button class="icon-button cart-shortcut" id="cart-open" type="button" aria-label="Open shopping bag"><i class="fa-solid fa-bag-shopping"></i><span class="cart-count" id="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <span class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span>THE NEW STANDARD</span>
+        <h1>Technology,<br><em>elevated.</em></h1>
+        <p>Meet the devices that move you. Curated innovation, exceptional service, and a more personal kind of tech.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#products">Explore collection <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="button button-quiet" href="#about"><span class="play-icon"><i class="fa-solid fa-play"></i></span> Our philosophy</a>
+        </div>
+        <div class="hero-proof"><div class="proof-avatars"><span>Y</span><span>M</span><span>A</span><span>+</span></div><div><strong>4.9/5</strong><small>Loved by 2,400+ customers</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=1100&q=90" alt="Premium smartphone with a refined titanium finish" class="hero-phone">
+        <div class="hero-note"><span class="note-icon"><i class="fa-solid fa-sparkles"></i></span><span><strong>Made for more</strong><small>Meet iPhone 16 Pro</small></span><i class="fa-solid fa-arrow-up-right-from-square note-arrow"></i></div>
+        <span class="hero-side-label">DESIGNED TO INSPIRE · BUILT TO PERFORM</span>
+      </div>
+      <div class="hero-bottom"><span>01 <i class="hero-progress"></i> 03</span><span>SCROLL TO EXPLORE <i class="fa-solid fa-arrow-down"></i></span></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Our service promises">
+      <div><i class="fa-solid fa-shield-halved"></i><span><strong>100% authentic</strong><small>Official products, always</small></span></div>
+      <div><i class="fa-solid fa-truck-fast"></i><span><strong>Fast, free delivery</strong><small>Across Morocco</small></span></div>
+      <div><i class="fa-solid fa-arrow-rotate-left"></i><span><strong>Easy returns</strong><small>14-day peace of mind</small></span></div>
+      <div><i class="fa-solid fa-headset"></i><span><strong>Here for you</strong><small>Real people, real support</small></span></div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading">
+        <div><span class="eyebrow">FIND YOUR NEXT</span><h2>Explore by <em>category.</em></h2></div>
+        <a class="text-link" href="#products">View all products <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="category-grid">
+        <button class="category-card category-large" data-category="smartphone" data-brand="Apple">
+          <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>01 — THE ORIGINAL</small><strong>iPhone</strong><span>Explore Apple <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="smartphone" data-brand="Samsung">
+          <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>02 — NEXT-LEVEL INNOVATION</small><strong>Samsung</strong><span>Explore Galaxy <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="smartphone" data-brand="Xiaomi">
+          <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>03 — MORE FOR LESS</small><strong>Xiaomi</strong><span>Explore Xiaomi <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="smartphone" data-brand="OPPO">
+          <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>04 — BEAUTIFULLY DIFFERENT</small><strong>OPPO</strong><span>Explore OPPO <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="smartphone" data-brand="Google">
+          <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>05 — THE GOOGLE PHONE</small><strong>Google Pixel</strong><span>Explore Pixel <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="smartwatch">
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>06 — EVERY SECOND COUNTS</small><strong>Smartwatches</strong><span>Explore wearables <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="headphones">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>07 — SOUND, REIMAGINED</small><strong>Headphones</strong><span>Explore audio <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+        <button class="category-card" data-category="accessories">
+          <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=800&q=85" alt="">
+          <span class="category-overlay"></span><span class="category-copy"><small>08 — THE PERFECT COMPANION</small><strong>Accessories</strong><span>Explore essentials <i class="fa-solid fa-arrow-right"></i></span></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="brands-strip" id="brands">
+      <span class="eyebrow">THE NAMES YOU LOVE</span>
+      <div class="brand-list"><span> <b>Apple</b></span><span class="samsung-word">SAMSUNG</span><span class="xiaomi-word">mi</span><span class="google-word">Google</span><span class="oppo-word">oppo</span></div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading product-heading">
+        <div><span class="eyebrow">A BETTER KIND OF UPGRADE</span><h2>Featured <em>essentials.</em></h2></div>
+        <p>Considered technology. The best of what’s next, ready for you today.</p>
+      </div>
+      <div class="filter-toolbar">
+        <div class="filter-tabs" role="group" aria-label="Filter by product type">
+          <button class="filter-tab active" data-category="all">All products</button>
+          <button class="filter-tab" data-category="smartphone">Smartphones</button>
+          <button class="filter-tab" data-category="smartwatch">Wearables</button>
+          <button class="filter-tab" data-category="headphones">Audio</button>
+          <button class="filter-tab" data-category="accessories">Accessories</button>
+        </div>
+        <div class="filter-controls">
+          <label class="sr-only" for="brand-filter">Brand</label>
+          <select id="brand-filter"><option value="all">All brands</option><option>Apple</option><option>Samsung</option><option>Xiaomi</option><option>Google</option><option>OPPO</option><option>Anker</option></select>
+          <label class="sr-only" for="price-filter">Maximum price</label>
+          <select id="price-filter"><option value="all">Any price</option><option value="3000">Under 3,000 MAD</option><option value="6000">Under 6,000 MAD</option><option value="10000">Under 10,000 MAD</option><option value="15000">Under 15,000 MAD</option></select>
+          <label class="availability-filter"><input type="checkbox" id="availability-filter"> In stock</label>
+          <label class="sr-only" for="sort-filter">Sort products</label>
+          <select id="sort-filter"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="popular">Most popular</option></select>
+        </div>
+      </div>
+      <div class="active-filter-row"><span id="results-count"></span><button id="clear-filters" type="button">Clear filters <i class="fa-solid fa-xmark"></i></button></div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><span><i class="fa-solid fa-magnifying-glass"></i></span><h3>No products found</h3><p>Try changing your search or filters to find your perfect match.</p><button class="button button-dark" id="reset-empty">Clear filters</button></div>
+      <div class="collection-cta"><span>THE TECHNOVA EDIT</span><p>Good things are just around the corner.</p><a href="#categories">Explore every category <i class="fa-solid fa-arrow-right"></i></a></div>
+    </section>
+
+    <section class="editorial">
+      <div class="editorial-image"><img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=1200&q=85" alt="Thoughtfully selected modern technology"></div>
+      <div class="editorial-content"><span class="eyebrow">A LITTLE MORE PERSONAL</span><h2>Not just new.<br><em>Right for you.</em></h2><p>The best technology isn’t the most complicated. It’s the device that fits naturally into your life. Our people are here to help you find it.</p><a class="button button-dark" href="#about">The TECHNOVA difference <i class="fa-solid fa-arrow-right"></i></a><span class="editorial-index">THOUGHTFULLY CURATED · SINCE DAY ONE</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><div><span class="eyebrow">A DIFFERENT KIND OF TECH STORE</span><h2>More than a place<br>to <em>shop.</em></h2></div><p>We believe choosing your next device should feel as exciting as using it. That’s why we make every step a little more thoughtful.</p></div>
+      <div class="about-grid"><article><span class="about-number">01</span><i class="fa-solid fa-certificate"></i><h3>Only the real thing</h3><p>Every product is 100% authentic and carefully sourced. No compromises, no question marks.</p></article><article><span class="about-number">02</span><i class="fa-solid fa-heart"></i><h3>People, not algorithms</h3><p>Honest recommendations from a team that cares about what works for you—not just what’s new.</p></article><article><span class="about-number">03</span><i class="fa-solid fa-star"></i><h3>Good service, always</h3><p>From first question to delivery day and beyond, we’re right here whenever you need us.</p></article></div>
+      <div class="satisfaction"><strong>98<span>%</span></strong><p>of our customers would recommend TECHNOVA.<br><small>That’s not a metric to us. It’s a promise.</small></p><div class="satisfaction-stars" aria-label="5 out of 5 stars">★★★★★</div></div>
+    </section>
+
+    <section class="newsletter">
+      <div><span class="eyebrow">THE GOOD STUFF, OCCASIONALLY</span><h2>A little more <em>in your inbox.</em></h2><p>New arrivals, thoughtful tips, and things worth knowing. No noise.</p></div>
+      <form class="newsletter-form" id="newsletter-form"><label class="sr-only" for="newsletter-email">Your email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button><small>By subscribing, you agree to receive TECHNOVA updates.</small></form>
+    </section>
+
+    <section class="contact-strip" id="contact"><div><span class="eyebrow">NEED A HAND?</span><h2>We’re just a <em>message away.</em></h2></div><div class="contact-links"><a href="https://wa.me/212600000000" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp"></i><span><small>WHATSAPP</small>Chat with our team</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="mailto:hello@technova.ma"><i class="fa-regular fa-envelope"></i><span><small>SEND AN EMAIL</small>hello@technova.ma</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><div class="footer-brand"><a class="brand-mark" href="#top"><span class="brand-symbol">T</span><span>TECH<span class="brand-light">NOVA</span></span></a><p>Technology, elevated.<br>Thoughtfully chosen. Lovingly delivered.</p><div class="social-links"><a href="https://instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="https://facebook.com" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="https://tiktok.com" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div></div>
+      <div class="footer-column"><strong>EXPLORE</strong><a href="#products">Smartphones</a><a href="#categories">Accessories</a><a href="#brands">Our brands</a><a href="#products">Special offers</a></div>
+      <div class="footer-column"><strong>HERE TO HELP</strong><a href="#contact">Contact us</a><a href="#contact">Delivery & returns</a><a href="#contact">Warranty</a><a href="#about">About TECHNOVA</a></div>
+      <div class="footer-column footer-location"><strong>MADE FOR MOROCCO</strong><span>Thoughtful tech, wherever<br>you are in Morocco.</span><span><i class="fa-solid fa-location-dot"></i> Casablanca, Morocco</span><span><i class="fa-regular fa-clock"></i> Mon–Sat, 9am–7pm</span></div>
+    </div><div class="footer-bottom"><span>© 2025 TECHNOVA. Made with intention.</span><span>Prices shown in Moroccan Dirham (MAD)</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-header"><div><span class="eyebrow">YOUR SELECTION</span><h2>Your bag <span id="drawer-item-count">(0)</span></h2></div><button class="icon-button drawer-close" id="cart-close" aria-label="Close shopping bag"><i class="fa-solid fa-xmark"></i></button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><i class="fa-solid fa-bag-shopping"></i><h3>Your bag is taking a breather.</h3><p>When something catches your eye, it’ll be here.</p><button class="button button-dark" id="continue-shopping">Explore products</button></div>
+    <div class="drawer-footer" id="drawer-footer"><div class="shipping-progress"><i class="fa-solid fa-truck-fast"></i><span id="shipping-message">You’re close to complimentary delivery.</span><div class="shipping-track"><span id="shipping-progress"></span></div></div><div class="subtotal-row"><span>Subtotal</span><strong id="cart-subtotal">0 MAD</strong></div><small>Delivery and taxes calculated at checkout.</small><button class="button button-dark checkout-button" id="checkout-button">Continue to checkout <i class="fa-solid fa-arrow-right"></i></button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+    <section class="product-modal" id="product-modal" role="dialog" aria-modal="true" aria-label="Product details">
+      <button class="icon-button modal-close" id="modal-close" aria-label="Close product details"><i class="fa-solid fa-xmark"></i></button>
+      <div id="modal-content"></div>
+    </section>
+  </div>
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
